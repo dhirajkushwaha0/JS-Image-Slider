@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.html,
+body{
+    background-color: rgb(53, 70, 87);
+}
+
+.title{
+    color: rgb(228, 223, 216);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+
+#box{
+    height: 66vh;
+    width: 55%;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px rgb(14, 9, 9);
+    margin-top: 40px;
+    margin-left: 300px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 15px;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
